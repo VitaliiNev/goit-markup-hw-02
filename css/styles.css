@@ -110,12 +110,12 @@ ul {
 }
 .footer .logo {
   color: #ffffff;
-}
-.footer .logo-second {
-  color: var(--accent-color);
   font-weight: bold;
   font-size: 26px;
   line-height: 1;
+}
+.footer .logo-second {
+  color: var(--accent-color);
 }
 .address-item .address-map {
   color: #ffffff;
