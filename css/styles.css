@@ -10,17 +10,14 @@
 /* index.html */
 body {
   color: var(--primery-text-color);
-  font-family: roboto;
-}
-ul {
-  list-style: none;
+  font-family: roboto, sans-serif;
 }
 
 /* logo  */
 .nav-logo {
   color: #000000;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1;
 }
@@ -63,9 +60,13 @@ ul {
 }
 
 /* Особенности */
+.specifics-title {
+  display: none;
+}
+
 .section-specifics .title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1;
 }
@@ -77,7 +78,7 @@ ul {
 /* Чем мы занимаемся */
 .section-foto .title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1;
 }
@@ -88,7 +89,7 @@ ul {
 }
 .section-team .title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1;
 }
@@ -110,7 +111,7 @@ ul {
 }
 .footer .logo {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1;
 }
@@ -139,7 +140,7 @@ ul {
   color: var(--primery-background-colors);
   background-color: var(--accent-color);
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -153,4 +154,21 @@ ul {
 .button-secondary:focus {
   color: var(--primery-background-colors);
   background-color: var(--accent-color);
+}
+
+/* Projects */
+.projects-title {
+  display: none;
+}
+
+.projects .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.71;
+}
+
+.projects .text {
+  font-size: 16px;
+  line-height: 1.6;
 }
