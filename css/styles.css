@@ -11,6 +11,7 @@
 body {
   color: var(--primery-text-color);
   font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* logo  */
@@ -31,6 +32,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -42,6 +44,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contact .link:hover,
 .contact .link:focus {
@@ -57,6 +60,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 /* Особенности */
@@ -169,6 +173,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .projects .text {
