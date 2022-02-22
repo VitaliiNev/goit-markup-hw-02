@@ -19,7 +19,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1;
+  line-height: 1.19;
 }
 .logo {
   color: var(--accent-color);
@@ -30,7 +30,7 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -41,7 +41,7 @@ body {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.14;
 }
 .contact .link:hover,
 .contact .link:focus {
@@ -56,7 +56,7 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.16;
+  line-height: 1.36;
 }
 
 /* Особенности */
@@ -68,11 +68,11 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.14;
 }
 .section-specifics .text {
   font-size: 14px;
-  line-height: 1.46;
+  line-height: 1.71;
 }
 
 /* Чем мы занимаемся */
@@ -80,7 +80,7 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1;
+  line-height: 1.16;
 }
 
 /* Наша команда */
@@ -91,17 +91,17 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1;
+  line-height: 1.16;
 }
 .section-team .card-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.18;
 }
 .section-team .text {
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.18;
 }
 
 /* footer */
@@ -113,7 +113,7 @@ body {
   color: #ffffff;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1;
+  line-height: 1.19;
 }
 .footer .logo-second {
   color: var(--accent-color);
@@ -121,13 +121,13 @@ body {
 .address-item .address-map {
   color: #ffffff;
   font-size: 14px;
-  line-height: 1.46;
+  line-height: 1.71;
 }
 
 .address-item .link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.71;
 }
 
 .address-item .link:hover,
@@ -142,9 +142,12 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.87;
 }
 .button-secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   color: var(--title-text-color);
   background-color: var(--second-background-colors);
   cursor: pointer;
@@ -165,10 +168,10 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.71;
+  line-height: 2;
 }
 
 .projects .text {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.87;
 }
