@@ -76,6 +76,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button-primary {
   color: var(--second-text-color);
@@ -96,6 +97,7 @@ body {
 .specifics .title {
   color: var(--title-text-color);
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .specifics .text {
